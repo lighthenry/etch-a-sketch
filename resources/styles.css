@@ -1,0 +1,34 @@
+.container {
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 60px;
+    background-color: blue;
+    height: 608px; 
+    width: 608px;
+    border: 2px solid grey;
+}
+
+.button {
+    width: 100%; 
+    text-align: center; 
+}
+
+button {
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 30px; 
+    text-align: center;
+    height: 30px;
+    width: 60px; 
+    border-radius: 5px;
+    border: none; 
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+button:hover {
+    background: linear-gradient(top,#f8f8f8,#f1f1f1); 
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
