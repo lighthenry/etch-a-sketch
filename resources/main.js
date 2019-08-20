@@ -34,10 +34,15 @@ function genGrid(size) {
 }
 
 function reset() {
-    genGrid(16); 
+    let noSquares = prompt("Size of new grid. (Keep below 70)", 16);
+    
+    if (noSquares > 70 || noSquares < 2) {
+        genGrid(16);
+    } else {
+        genGrid(noSquares); 
+    }  
 }
 
-genGrid(16);
 
 
 
